@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#listaAlunos {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaAlunos li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#listaAlunos li button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#listaAlunos li button:hover {
+    background-color: #ff3333;
+}
+#listaAlunos li button.presenca {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#listaAlunos li button.presenca:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presença</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Presença</h1>
+        <form id="cadastroForm">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="idade" placeholder="Idade" required>
+            <button type="button" onclick="adicionarAluno()">Cadastrar</button>
+        </form>
+
+        <h2>Lista de Alunos</h2>
+        <p id="contadorPresenca">Alunos Presentes: 0</p>
+        <ul id="listaAlunos"></ul>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
